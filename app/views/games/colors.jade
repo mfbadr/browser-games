@@ -1,6 +1,10 @@
 extends ../shared/template
 block content
   h2 COLOR GAME!
+  #controls
+    input(name='count', type='number', autofocus='true')
+    button Create Color Boxes
+  #boxes
 
 block scripts
   script(src='/js/user/colors.js')

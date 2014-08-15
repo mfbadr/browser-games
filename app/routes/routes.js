@@ -14,6 +14,8 @@ module.exports = function(app, express){
 
   app.get('/', home.index);
   app.get('/colors', games.colors);
+  app.get('/pacman', games.pacman);
+  app.get('/painter', games.painter);
 
   console.log('Routes Loaded');
 };
