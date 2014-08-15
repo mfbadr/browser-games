@@ -1,7 +1,7 @@
 ## name of project
 ### Code Badges
-build status icon
-coverage status icon
+[![Build Status](https://travis-ci.org/mfbadr/browser-games.svg)](https://travis-ci.org/mfbadr/browser-games)
+[![Coverage Status](https://coveralls.io/repos/mfbadr/browser-games/badge.png)](https://coveralls.io/r/mfbadr/browser-games)
 
 ### About
 write a description about your project
